@@ -37,7 +37,7 @@ Caveat: I’m a CircuitPython beginner so it’s possible that some of these nee
 
 +	Extend I2C _busio_ to transparently support extended bus addressing provided by multiplexers such as the TCA9548A
 
-### Actively Influence Hardware Redesign
+### Actively Manage Hardware Devices
 
 +	First order: Code-initiated device reset/initialization during instantiation or optionally when an error is detected (such as for the SSD1306 display breakout and VL53L0X ToF sensor)
 +	Second order (long term): Self-check/diagnostics, either when instantiated, in a diagnostic library, or in a collection of diagnostic examples
