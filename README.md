@@ -39,7 +39,7 @@ Caveat: I’m a CircuitPython beginner so it’s possible that some of these nee
 
 ### Actively Manage Hardware Devices
 
-+	First order: Code-initiated device reset/initialization during instantiation or when an error is detected (such as for the SSD1306 display breakout and VL53L0X ToF sensor)
++	First order: Code-initiated device reset/initialization during instantiation or when an error is detected (such as is currently needed for the SSD1306 display breakout and VL53L0X ToF sensor)
 +	Second order (long term): Self-check/diagnostics, either when instantiated, in a diagnostic library, or in a collection of diagnostic examples
 +	Third order (much, much longer term): Device/module/sensor autonomy via automatic self-checks
 
